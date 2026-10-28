@@ -32,13 +32,17 @@ const menuData = [
         items: [
             { name: "Jambalaya Noodles", price: 6500 },
             { name: "Jambalaya Spaghetti", price: 8000 },
+            { name: "Singapore Noodles", price: 3000 },
             { name: "Asun", price: 2000 }
         ]
     },
     {
         category: "Breakfast Dishes",
         items: [
-            { name: "Yam and Egg Sauce", price: 2500 }
+            { name: "Yam and Egg Sauce", price: 2500 },
+            { name: "Sandwiches", price: 2500 },
+            { name: "Waffles", price: 2000 },
+            { name: "Crepes", price: 1800 }
         ]
     },
     {
@@ -62,7 +66,7 @@ const menuData = [
         ]
     },
     {
-        category: "Pastries",
+        category: "Pastries & Cakes",
         items: [
             { name: "Meat Pie", price: 1000 },
             { name: "Chicken Pie", price: 1200 },
@@ -72,13 +76,33 @@ const menuData = [
             { name: "Milky Donut", price: 1000 },
             { name: "Cupcake (Without Icing)", price: 700 },
             { name: "Cupcake (With Icing)", price: 1000 },
-            { name: "Cookies", price: 1500 }
+            { name: "Cookies", price: 1500 },
+            { name: "Mini Banana Bread", price: 2000 },
+            { name: "Midi Banana Bread", price: 3500 },
+            { name: "Foil Cakes", price: 2500 },
+            { name: "Cake Slice (One Flavor)", price: 3500 },
+            { name: "Cake Slice (Mixed Flavors)", price: 4500 }
+        ]
+    },
+    {
+        category: "Local Snacks",
+        items: [
+            { name: "Kokoro", price: 2000 },
+            { name: "Kokoro (Jar)", price: 3000 },
+            { name: "Kulikuli (Ziplock)", price: 2500 },
+            { name: "Kulikuli (Jar)", price: 3500 },
+            { name: "Milk Candy", price: 2500 },
+            { name: "Sisi Pelebe", price: 1500 },
+            { name: "Sisi Pelebe (Jar)", price: 2500 },
+            { name: "Dodo Ikire", price: 3000 },
+            { name: "Dankwa", price: 3000 }
         ]
     },
     {
         category: "Parfaits",
         items: [
             { name: "Cake Parfait (Small)", price: 2000 },
+            { name: "Layered Parfait", price: 4000 },
             { name: "Fruit Parfait", price: 4500 }
         ]
     },
@@ -95,8 +119,7 @@ const menuData = [
             { name: "Passion Fruit", price: 4000 },
             { name: "Chocolate Slush", price: 8000 },
             { name: "Cranberry Cooler", price: 3500 },
-            { name: "Boba Tea (Small)", price: 3000 },
-            { name: "Boba Tea (Big)", price: 4000 },
+            { name: "Boba Tea (Big)", price: 4500 },
             { name: "Black Coffee", price: 2000 }
         ]
     }
